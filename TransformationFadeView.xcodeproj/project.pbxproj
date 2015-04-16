@@ -14,6 +14,9 @@
 		101CCFC01ADF4EE9000AF58A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101CCFBF1ADF4EE9000AF58A /* Images.xcassets */; };
 		101CCFC31ADF4EE9000AF58A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101CCFC11ADF4EE9000AF58A /* LaunchScreen.xib */; };
 		101CCFCF1ADF4EE9000AF58A /* TransformationFadeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 101CCFCE1ADF4EE9000AF58A /* TransformationFadeViewTests.m */; };
+		101CCFDA1ADF4F06000AF58A /* TranformFadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 101CCFD91ADF4F06000AF58A /* TranformFadeView.m */; };
+		101CCFDE1ADF52F8000AF58A /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 101CCFDC1ADF52F8000AF58A /* 2@2x.png */; };
+		106B49FF1ADF8C7500657888 /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 106B49FE1ADF8C7500657888 /* 1@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		101CCFC81ADF4EE9000AF58A /* TransformationFadeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransformationFadeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		101CCFCD1ADF4EE9000AF58A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		101CCFCE1ADF4EE9000AF58A /* TransformationFadeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformationFadeViewTests.m; sourceTree = "<group>"; };
+		101CCFD81ADF4F06000AF58A /* TranformFadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranformFadeView.h; sourceTree = "<group>"; };
+		101CCFD91ADF4F06000AF58A /* TranformFadeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranformFadeView.m; sourceTree = "<group>"; };
+		101CCFDC1ADF52F8000AF58A /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@2x.png"; sourceTree = "<group>"; };
+		106B49FE1ADF8C7500657888 /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +92,10 @@
 				101CCFB71ADF4EE9000AF58A /* AppDelegate.m */,
 				101CCFB91ADF4EE9000AF58A /* ViewController.h */,
 				101CCFBA1ADF4EE9000AF58A /* ViewController.m */,
+				101CCFDC1ADF52F8000AF58A /* 2@2x.png */,
+				106B49FE1ADF8C7500657888 /* 1@2x.png */,
+				101CCFD81ADF4F06000AF58A /* TranformFadeView.h */,
+				101CCFD91ADF4F06000AF58A /* TranformFadeView.m */,
 				101CCFBC1ADF4EE9000AF58A /* Main.storyboard */,
 				101CCFBF1ADF4EE9000AF58A /* Images.xcassets */,
 				101CCFC11ADF4EE9000AF58A /* LaunchScreen.xib */,
@@ -199,8 +210,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106B49FF1ADF8C7500657888 /* 1@2x.png in Resources */,
 				101CCFBE1ADF4EE9000AF58A /* Main.storyboard in Resources */,
 				101CCFC31ADF4EE9000AF58A /* LaunchScreen.xib in Resources */,
+				101CCFDE1ADF52F8000AF58A /* 2@2x.png in Resources */,
 				101CCFC01ADF4EE9000AF58A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				101CCFBB1ADF4EE9000AF58A /* ViewController.m in Sources */,
+				101CCFDA1ADF4F06000AF58A /* TranformFadeView.m in Sources */,
 				101CCFB81ADF4EE9000AF58A /* AppDelegate.m in Sources */,
 				101CCFB51ADF4EE9000AF58A /* main.m in Sources */,
 			);
@@ -348,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TransformationFadeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TransformationFadeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +432,7 @@
 				101CCFD41ADF4EE9000AF58A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		101CCFD51ADF4EE9000AF58A /* Build configuration list for PBXNativeTarget "TransformationFadeViewTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +441,7 @@
 				101CCFD71ADF4EE9000AF58A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
