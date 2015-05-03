@@ -35,8 +35,8 @@ typedef enum : NSUInteger {
     self.tranformFadeViewOne                 = [[TranformFadeView alloc] initWithFrame:self.view.bounds];
     self.tranformFadeViewOne.contentMode     = UIViewContentModeScaleAspectFill;
     self.tranformFadeViewOne.image           = [UIImage imageNamed:@"1"];
-    self.tranformFadeViewOne.verticalCount   = 5;
-    self.tranformFadeViewOne.horizontalCount = 5;
+    self.tranformFadeViewOne.verticalCount   = 2;
+    self.tranformFadeViewOne.horizontalCount = 12;
     self.tranformFadeViewOne.center          = self.view.center;
     [self.tranformFadeViewOne buildMaskView];
     
@@ -50,8 +50,8 @@ typedef enum : NSUInteger {
     self.tranformFadeViewTwo                 = [[TranformFadeView alloc] initWithFrame:self.view.bounds];
     self.tranformFadeViewTwo.contentMode     = UIViewContentModeScaleAspectFill;
     self.tranformFadeViewTwo.image           = [UIImage imageNamed:@"2"];
-    self.tranformFadeViewTwo.verticalCount   = 5;
-    self.tranformFadeViewTwo.horizontalCount = 5;
+    self.tranformFadeViewTwo.verticalCount   = 2;
+    self.tranformFadeViewTwo.horizontalCount = 12;
     self.tranformFadeViewTwo.center          = self.view.center;
     [self.tranformFadeViewTwo buildMaskView];
     
